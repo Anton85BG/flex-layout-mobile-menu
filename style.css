@@ -194,6 +194,14 @@ footer {
     }
 
     @media (max-width: 900px) {
+	    
+	body {
+                background: url("images/header2.jpg") fixed no-repeat;
+                background-size: contain;
+                margin: 0 auto;
+                padding: 0.5rem;
+                position: relative;
+        }
         nav {
             position: relative;
         }
@@ -264,5 +272,15 @@ footer {
         main {
             margin-left: 0.5em;
             margin-right: 0.5em;
+        }
+    }
+
+@media only screen and (max-width: 600px) {
+        body {
+                background: url("images/header1.jpg") fixed no-repeat;
+                background-size: contain;
+                margin: 0 auto;
+                padding: 0.5rem;
+                position: relative;               
         }
     }
